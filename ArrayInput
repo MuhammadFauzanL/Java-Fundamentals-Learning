@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class TUGAS9 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukan Jumlah Total Mahasiswa");
+        int jumlahMahasiswa = input.nextInt();
+
+        int Umur[] = new int[jumlahMahasiswa];
+
+        for (int i = 0; i < jumlahMahasiswa; i++) {
+            System.out.println("UMUR MAHASISWA KE " + (i + 1) + "=");
+            Umur[i] = input.nextInt();
+        }
+        System.out.println("Data Mahasiswa");
+        for (int i = 0; i < jumlahMahasiswa; i++) {
+            System.out.println("Umur Masiswa ke " + (i + 1) + "=" + Umur[i]);
+        }
+    }
+
+}
+
+
+
+
+
+
